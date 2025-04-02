@@ -1,21 +1,21 @@
-| Cliente/Servidor (Web, jogos, app entretenimentos)
-- qualquer sistema que necessita de um retorno vindo de uma requisição
+  | Cliente/Servidor (Web, jogos, app entretenimentos)
+    - qualquer sistema que necessita de um retorno vindo de uma requisição
 
-Cliente - requisição - Servidor - resposta - Cliente
+  Cliente - requisição - Servidor - resposta - Cliente
 
-Padrão: Todo conteúdo centrado no servidor, sendo responsável por armazenar todos os arquivos para acessar a aplicação.
+    Padrão: Todo conteúdo centrado no servidor, sendo responsável por armazenar todos os arquivos para acessar a aplicação.
 
--- Rede peer to peer todos os clientes também funcionam como servidores, ou seja, ao acessar os arquivos, é acessado toda a rede.
+  -- Rede peer to peer todos os clientes também funcionam como servidores, ou seja, ao acessar os arquivos, é acessado toda a rede.
 
-| Páginas Estáticas
+  | Páginas Estáticas
   - São páginas da web que são entregues ao navegador exatamente como são armazenadas no servidor web.
   - Não envolve nenhum processamento no lado do servidor antes de ser enviada.
 
- | Páginas Dinâmicas
+  | Páginas Dinâmicas
    - São construídos sob demanda no lado do servidor.
    - Interações personalizadas com os usuários.
    - Geração de conteúdo dinâmico.
    - Experiência mais interativa.
 
-Porta padrão
-- HTTP -> 80
+  Porta padrão
+  - HTTP -> 80
